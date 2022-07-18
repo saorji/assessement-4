@@ -1,0 +1,28 @@
+body {
+    background-color: gainsboro;
+}
+
+button {
+    display:flex;
+}
+
+form {
+    background-color: ghostwhite;
+}
+
+label {
+    display: flex;
+}
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input {
+    display: flex;
+}
+
+#goal-container {
+    background-color: antiquewhite;
+}

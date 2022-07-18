@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button><br>
+    <button id="fortuneButton">Get a Fortune</button>
+    <br>
+    <br>
+      <label id="pick">What do you want to learn today</label>
+      <select name="selector" id="selector">
+        <option value="learn">Select one</option>
+        <option value="quote" id="quote">Random quotes of the day</option>
+        <option value="encor" id="encor">Words of encouragement</option>
+      </select>
+      <input type="submit" id="submit" value="Submit"/><br>
+
+      <form id="goal-form">
+    <h3>Whats your short time goal?</h3>
+      <input type="text" id="goals" placeholder="Your career goals"/><br>
+      <input type="text" id="time" placeholder="year to achieve goal"/><br>
+      <input type="text" id="city" placeholder="Dream city to live"/><br>
+      <button>Submit</button><br>
+    </form>
+    <section id="goal-container"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
